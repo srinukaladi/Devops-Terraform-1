@@ -1,5 +1,3 @@
-
-
 resource "aws_subnet" "subnet1-public" {
   vpc_id            = aws_vpc.testvpc01.id
   cidr_block        = var.public_subnet1_cidr
@@ -8,6 +6,7 @@ resource "aws_subnet" "subnet1-public" {
   tags = {
     Name  = "${var.Public_Subnet-1_name}"
     Owner = "Lakshman"
+
   }
 }
 
