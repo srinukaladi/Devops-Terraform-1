@@ -5,7 +5,7 @@ resource "aws_subnet" "subnet1-public" {
 
   tags = {
     Name  = "${var.Public_Subnet-1_name}"
-    Owner = "Lakshman"
+    Owner = "Lakshman rao "
 
   }
 }
@@ -17,7 +17,7 @@ resource "aws_subnet" "subnet2-public" {
 
   tags = {
     Name  = "${var.Public_Subnet-2_name}"
-    Owner = "Lakshman"
+    Owner = "Lakshman rao"
   }
 }
 
@@ -28,6 +28,6 @@ resource "aws_subnet" "subnet3-public" {
 
   tags = {
     Name  = "${var.Public_Subnet-3_name}"
-    Owner = "Lakshman"
+    Owner = "Lakshman "
   }
 }
